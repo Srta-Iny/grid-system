@@ -2,6 +2,9 @@ a{
 	text-decoration:none;
 	color:#2196F3;
 }
+a:hover {
+	color:#5d5959;
+}
 div{
 	font-family: Arial;
 }
@@ -108,6 +111,9 @@ h3{
 }
 .pie a{
 	color:#A1A1A1;
+}
+.pie a:hover{
+	color:#2196F3;
 }
 .copyright{
 	margin: 1% auto;
