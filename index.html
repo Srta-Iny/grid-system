@@ -8,29 +8,33 @@
   <title>Grid System</title>
 </head>
 <body>
-	<div class="container">
-		<header class="row cabecera">
-			<div class="col-2">
-				<img src="img/logo.png" alt="logo" class="logo text-center">
+	<header>
+		<div class="container">
+			<div class="row cabecera">
+				<div class="col-2">
+					<img src="img/logo.png" alt="logo" class="logo text-center">
+				</div>
+				<nav class="col-10 text-right">
+					<a href="#">LIVE</a>
+					<a href="#">SHOWS</a>
+					<a href="#">SUBSCRIBE</a>
+					<a href="#">SCHEDULE</a>
+					<a href="#">SUPORT 5BY5</a>
+					<a href="#">ADVERTISE</a>
+					<a href="#">CONTACT</a>
+				</nav>
 			</div>
-			<nav class="col-10">
-				<a href="#">LIVE</a>
-				<a href="#">SHOWS</a>
-				<a href="#">SUBSCRIBE</a>
-				<a href="#">SCHEDULE</a>
-				<a href="#">SUPORT 5BY5</a>
-				<a href="#">ADVERTISE</a>
-				<a href="#">CONTACT</a>
-			</nav>
-		</header>
-		<section class="caja-gris">
+		</div>
+	</header>
+	<section class="caja-gris">
+		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<h3>Lastest episodes</h3>
 					<a href="#">More episodes ></a>
 				</div>
 			</div>
-			<div class="row foto-episodios">
+			<div class="row">
 				<div class="col-3">
 					<img src="img/dlc.jpg" alt="foto1" class="borde-blanco">
 				</div>
@@ -44,7 +48,7 @@
 					<img src="img/changelog.jpg" alt="foto4" class="borde-blanco">
 				</div>
 			</div>
-			<div class="row foto-episodios">
+			<div class="row episodios-texto">
 				<div class="col-3">
 					<a href="#">DLC 83</a>
 				</div>
@@ -58,10 +62,12 @@
 					<a href="#">Changelog 165</a>
 				</div>
 			</div>
-		</section>
-		<section class="row">
+		</div>
+	</section>
+	<section class="container">
+		<div class="row">
 		<!--fotos-->
-			<section class="col-9 main">
+			<div class="col-9 main">
 				<div class="row">
 					<div class="col-2 foto_chica">
 						<img src="img/thumbs/amplified.jpg" alt="foto_chica" class="borde-blanco">
@@ -216,7 +222,7 @@
 						<a href="#">Tech Douchebag</a>
 					</div>
 				</div>
-			</section>
+			</div>
 		<!--sidebar-->
 			<aside class="col-3 sidebar">
 				<div class="row">
@@ -269,14 +275,17 @@
 						<a href="#">5by5 for Mac OS X</a>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12 linea-side">
-						<p>Bandwith for July 2015 is sponsored dy <a href="#">CacheFly: The fastest, most reliable CDN in the business</a></p>
+				<div class="row ">
+					<div class="col-12">
+						<div class="linea-side">
+							<p>Bandwith for July 2015 is sponsored dy <a href="#">CacheFly: The fastest, most reliable CDN in the business</a></p>
+						</div>
 					</div>
 				</div>
 			</aside>
-		</section>
-		<footer>
+		</div>
+	</section>
+	<footer class="container pie">
 			<div class="row">
 				<div class="col-12">
 					<p>5by5 is a podcast network for geeks, designers, developers, gamers, entrepreneurs, and people like you, with shows hosted by people including Dan Benjamin, Merlin Mann, Horance Dediu, and Jeffrey Zeldman. <a href="#">Read more...</a></p>
@@ -300,7 +309,6 @@
 					<p>Copyright &reg; 2009-2015 by Dan Benjamin and 5by5 Productions LLC in Austin, Texas</p>
 				</div>
 			</div>
-		</footer>
-	</div>
+	</footer>
 </body>
 </html>
